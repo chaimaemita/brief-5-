@@ -1,0 +1,255 @@
+@media only screen and  (max-width: 700px) {
+
+    .content nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+        padding: 20px 0;
+    }
+
+    .list1 , .list2{
+        width: 100%;
+    }
+
+    .list1 ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .list1 ul li{
+        list-style: none;
+        text-align: center;
+        font-size: 15px;
+        margin: 10px;
+    }
+    .list1 ul li a{
+        text-decoration: none;
+        color: black;
+        margin-left: 10px;
+        vertical-align: middle;
+    }
+    .list1 ul li select{
+        border: none;
+    }
+    
+    .list1 ul li:first-child{
+        font-size: 20px;
+    }
+
+    .list2 ul{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 20px 0;
+    }
+
+    .list2 ul li{
+        list-style: none;
+        text-align: center;
+    }
+    
+    .list2 ul li a{
+        text-decoration: none;
+        color: black;
+    }
+    .list2 ul li:first-child{
+        margin-left: 0px;
+    }
+    .list2 ul li input{
+        background-color: black;
+        color: white;
+        border-radius: 5px;
+        padding: 5px;
+        font-size: 15px;
+        width: 100px;
+        border: none;
+        padding: 7px;
+
+    }
+    .img {
+        display: none;
+    }
+
+    .intro {
+        color: white;
+        width: 100%;
+    }
+
+    .intro h1{
+        font-size: 25px;
+        margin-bottom: 20px ;
+    }
+
+    .intro p{
+        margin-top: 20px;
+    }
+
+    .search{
+        margin: 10px 0;
+    }
+
+    .code input:last-child {
+        margin-left: 0px;
+        border-radius: 5px;
+        padding: 5px;
+        background-image: linear-gradient(to right, #FB7B30 0%, #A831A5 100%);
+        border: none;
+        padding: 8px;
+        width: 180px;
+    }
+
+    .content2 {
+        display: inline-flex;
+        align-items: center;
+        justify-content: space-around;
+        background-color: black;
+        height: auto;
+        padding: 20px 10px;
+        margin: 0;
+    }
+
+    .content3 {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0px 0px;
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    .content3 img {
+        margin-right: 0px;
+        margin-top:15px ;
+        margin-bottom:15px ;
+        width: 105px;
+    }
+
+
+
+    .start {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+    }
+
+    .links {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background-color: black;
+        padding:30px 20px;
+        height: auto;
+        width: 100%;
+        margin: 0px 0px;
+    }
+
+    .midd {
+        margin: 0px;
+        padding: 10px 0;
+        width: 90%;
+    }
+
+    .midd h1 {
+        margin-bottom: 30px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .midd p {
+        width: 90%;
+        margin-bottom: 10px;
+        padding: 20px 0 20px 0 ;
+        font-size: 15px;
+    }
+
+
+    .midd input {
+        margin: 10px 0px;
+        background-image: linear-gradient(to right, #FB7B30 0%, #A831A5 100%);
+        border-radius: 5px;
+        border: none;
+        padding: 8px;
+        width: 180px;
+        margin-left: 60px;
+    }
+
+    .list button {
+        border-radius: 5px;
+        border: none;
+        padding: 8px;
+        width: 180px;
+        margin: 10px;
+        margin-left: 50px;
+    }
+
+    .list input{
+        margin-left: 50px;
+    }
+
+    .signup{
+        display: none;
+    }
+    .pics{
+        width: 100%;
+        height: 100vh;
+        display: inline-block;
+    }
+
+
+    .foot {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+        background-color: black;
+        color: white;
+        margin: 0 0px;
+        height: auto;
+        padding: 10px;
+    }
+
+    .invit {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .icon1{
+        margin: 20px 0;
+    }
+
+    .icon1 img{
+        margin: 0 10px;
+    }
+
+    .ls{
+        width: 100%;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+    }
+
+    .cr {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+        align-items: center;
+        margin-left: 0px;
+        font-size: 10px;
+        margin-right: 0px;
+    }
+    
+   
+
+
+
+
+
+}

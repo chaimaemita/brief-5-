@@ -198,11 +198,43 @@
     }
     .pics{
         width: 100%;
-        height: 100vh;
-        display: inline-block;
+        display: block;
+        height: auto;
     }
-
-
+    .one img{
+        width: 350px;
+    }
+    .two img{
+        width: 300px;
+        margin: 10px;
+    }
+    
+    .three img{
+        width: 300px;
+        margin: 10px;
+    }
+    .for{
+        margin: 100px;
+    }
+    .for img{
+        height: 200px;
+        width: 400px;
+    }
+    .five{
+        margin: 10px;
+    }
+    .five img{
+        width: 300px;
+    }
+    .six{
+        margin: 10px;
+    }
+    .seven{
+        margin: 10px;
+    }
+    .seven img{
+        width: 300px;
+    }
     .foot {
         display: flex;
         align-items: center;

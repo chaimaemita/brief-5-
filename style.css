@@ -67,7 +67,7 @@ body{
 }
 
 .content2{
-    display: inline-flex;
+    display: flex;
     align-items: center;
     justify-content: space-around;
     background-color: black;
@@ -90,7 +90,7 @@ body{
     padding: 5px;
     margin-top: 0px;
 }
-.search{
+#options{
     border-radius: 5px;
     border: none;
     padding: 8px;
@@ -107,7 +107,7 @@ body{
     color: white;
 }
 .content3{
-    display: inline-flex;
+    display: flex;
     align-items: center;
     justify-content: space-around;
     margin: 50px 0px;
